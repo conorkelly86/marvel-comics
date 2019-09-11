@@ -160,6 +160,7 @@ function App() {
       <p>{comic.data.results[0].title}</p>
       <img src={`${thumbnail.path}.${thumbnail.extension}`} className="comicbook"/>
       <p>Issue: {comic.data.results[0].issueNumber}</p>
+      <p>Format: {comic.data.results[0].format}</p>
 
     </div>
   );
